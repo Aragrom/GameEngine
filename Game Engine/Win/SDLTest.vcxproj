@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\BasicCameraController.cpp" />
+    <ClCompile Include="..\src\BoxCollider.cpp" />
+    <ClCompile Include="..\src\Enemy.cpp" />
+    <ClCompile Include="..\src\Planet.cpp" />
+    <ClCompile Include="..\src\Sound.cpp" />
+    <ClCompile Include="..\src\SoundManager.cpp" />
+    <ClCompile Include="..\src\Font.cpp" />
+    <ClCompile Include="..\src\FontManager.cpp" />
+    <ClCompile Include="..\src\Collider.cpp" />
+    <ClCompile Include="..\src\Camera.cpp" />
+    <ClCompile Include="..\src\Colours.cpp" />
+    <ClCompile Include="..\src\Component.cpp" />
+    <ClCompile Include="..\src\FBXLoader.cpp" />
+    <ClCompile Include="..\src\FPSCameraController.cpp" />
+    <ClCompile Include="..\src\GameConstants.cpp" />
+    <ClCompile Include="..\src\GameObject.cpp" />
+    <ClCompile Include="..\src\Input.cpp" />
+    <ClCompile Include="..\src\Joypad.cpp" />
+    <ClCompile Include="..\src\Keyboard.cpp" />
+    <ClCompile Include="..\src\Light.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\Material.cpp" />
+    <ClCompile Include="..\src\Mesh.cpp" />
+    <ClCompile Include="..\src\Mouse.cpp" />
+    <ClCompile Include="..\src\OpenGLLoader.cpp" />
+    <ClCompile Include="..\src\Player.cpp" />
+    <ClCompile Include="..\src\PostProcessing.cpp" />
+    <ClCompile Include="..\src\SceneManager.cpp" />
+    <ClCompile Include="..\src\Shader.cpp" />
+    <ClCompile Include="..\src\CustomShape.cpp" />
+    <ClCompile Include="..\src\SkyboxMaterial.cpp" />
+    <ClCompile Include="..\src\SDLTextureLoader.cpp" />
+    <ClCompile Include="..\src\SphereCollider.cpp" />
+    <ClCompile Include="..\src\Timer.cpp" />
+    <ClCompile Include="..\src\Transform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\headers\BasicCameraController.h" />
+    <ClInclude Include="..\headers\BoxCollider.h" />
+    <ClInclude Include="..\headers\Enemy.h" />
+    <ClInclude Include="..\headers\Planet.h" />
+    <ClInclude Include="..\headers\Sound.h" />
+    <ClInclude Include="..\headers\SoundManager.h" />
+    <ClInclude Include="..\headers\Font.h" />
+    <ClInclude Include="..\headers\FontManager.h" />
+    <ClInclude Include="..\headers\Collider.h" />
+    <ClInclude Include="..\headers\Camera.h" />
+    <ClInclude Include="..\headers\Colours.h" />
+    <ClInclude Include="..\headers\Component.h" />
+    <ClInclude Include="..\headers\FBXLoader.h" />
+    <ClInclude Include="..\headers\FPSCameraController.h" />
+    <ClInclude Include="..\headers\GameConstants.h" />
+    <ClInclude Include="..\headers\GameObject.h" />
+    <ClInclude Include="..\headers\Input.h" />
+    <ClInclude Include="..\headers\Joypad.h" />
+    <ClInclude Include="..\headers\Keyboard.h" />
+    <ClInclude Include="..\headers\Light.h" />
+    <ClInclude Include="..\headers\Material.h" />
+    <ClInclude Include="..\headers\Mesh.h" />
+    <ClInclude Include="..\headers\Mouse.h" />
+    <ClInclude Include="..\headers\OpenGLLoader.h" />
+    <ClInclude Include="..\headers\Player.h" />
+    <ClInclude Include="..\headers\PostProcessing.h" />
+    <ClInclude Include="..\headers\SceneManager.h" />
+    <ClInclude Include="..\headers\Shader.h" />
+    <ClInclude Include="..\headers\CustomShape.h" />
+    <ClInclude Include="..\headers\SkyboxMaterial.h" />
+    <ClInclude Include="..\headers\SDLTextureLoader.h" />
+    <ClInclude Include="..\headers\SphereCollider.h" />
+    <ClInclude Include="..\headers\Transform.h" />
+    <ClInclude Include="..\headers\Vertex.h" />
+    <ClInclude Include="..\headers\wglext.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\assets\shaders\ambientFS.glsl" />
+    <None Include="..\assets\shaders\ambientVS.glsl" />
+    <None Include="..\assets\shaders\BumpmappingFS.glsl" />
+    <None Include="..\assets\shaders\BumpmappingVS.glsl" />
+    <None Include="..\assets\shaders\colourFilterPostFS.glsl" />
+    <None Include="..\assets\shaders\diffuseFS.glsl" />
+    <None Include="..\assets\shaders\diffuseVS.glsl" />
+    <None Include="..\assets\shaders\DirectionalLightTextureFS.glsl" />
+    <None Include="..\assets\shaders\DirectionalLightTextureVS.glsl" />
+    <None Include="..\assets\shaders\ParallaxMappingFS.glsl" />
+    <None Include="..\assets\shaders\ParallaxMappingVS.glsl" />
+    <None Include="..\assets\shaders\passThroughVS.glsl" />
+    <None Include="..\assets\shaders\simpleFS.glsl" />
+    <None Include="..\assets\shaders\simplePostProcessFS.glsl" />
+    <None Include="..\assets\shaders\simpleVS.glsl" />
+    <None Include="..\assets\shaders\skyFS.glsl" />
+    <None Include="..\assets\shaders\skyVS.glsl" />
+    <None Include="..\assets\shaders\specularFS.glsl" />
+    <None Include="..\assets\shaders\specularFSPerPixel.glsl" />
+    <None Include="..\assets\shaders\specularVS.glsl" />
+    <None Include="..\assets\shaders\specularVSPerPixel.glsl" />
+    <None Include="..\assets\shaders\textureFS.glsl" />
+    <None Include="..\assets\shaders\textureVS.glsl" />
+    <None Include="..\assets\shaders\vertexColourFS.glsl" />
+    <None Include="..\assets\shaders\vertexColourTextureFS.glsl" />
+    <None Include="..\assets\shaders\vertexColourTextureVS.glsl" />
+    <None Include="..\assets\shaders\vertexColourVS.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="assets\Libraries\alut.lib" />
+    <Library Include="assets\Libraries\DevIL.lib" />
+    <Library Include="assets\Libraries\freeglut.lib" />
+    <Library Include="assets\Libraries\ftgl.lib" />
+    <Library Include="assets\Libraries\glm-0.3.2Lib.lib" />
+    <Library Include="assets\Libraries\ILU.lib" />
+    <Library Include="assets\Libraries\ILUT.lib" />
+    <Library Include="assets\Libraries\OpenAL32.lib" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{68F0627D-C58E-4BAD-B10A-401ECB51D69F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SDLTest</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Game Engine\Win\assets;C:\Game Engine\headers;C:\Game Engine\src;C:\Game Engine\external resources\SDL2-2.0.3\include;C:\Game Engine\external resources\FBX SDK\2015.1\include;C:\Game Engine\external resources\SDL2_image-2.0.0\include;C:\Game Engine\external resources\SDL2_ttf-2.0.12\include;C:\Game Engine\external resources\bullet3-2.83.6\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\lib\vs2013\x86\debug;C:\SDL2_ttf-2.0.12\lib\x86;C:\SDL2_image-2.0.0\lib\x86;C:\SDL2-2.0.3\lib\x86;C:\glew-1.10.0\lib\Release\Win32;C:\Game Engine\external resources\FBX SDK\2015.1\lib\vs2013\x86;C:\Game Engine\external resources\SDL2_ttf-2.0.12\lib\x86;C:\Game Engine\external resources\SDL2_image-2.0.0\lib\x86;C:\Game Engine\external resources\SDL2-2.0.3\lib\x86;C:\Game Engine\external resources\glew-1.11.0\lib\Release\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libfbxsdk.lib;SDL2_ttf.lib;SDL2_image.lib;sdl2.lib;sdl2main.lib;glew32.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Game Engine\Win\assets;C:\Game Engine\headers;C:\Game Engine\src;C:\Game Engine\external resources\SDL2-2.0.3\include;C:\Game Engine\external resources\FBX SDK\2015.1\include;C:\Game Engine\external resources\SDL2_image-2.0.0\include;C:\Game Engine\external resources\SDL2_ttf-2.0.12\include;C:\Game Engine\external resources\bullet3-2.83.6\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
